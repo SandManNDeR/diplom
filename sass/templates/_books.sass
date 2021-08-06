@@ -1,0 +1,235 @@
+.books
+  &-wrapper
+    display: flex
+    justify-content: space-between
+.recommended
+  width: 751px
+  &__text
+    margin-top: 100px
+    display: block
+    font-family: "Roboto Condensed"
+    font-style: normal
+    font-weight: bold
+    font-size: 32px
+    line-height: 40px
+    color: #183B56
+    letter-spacing: 0.2px
+  &-wrapper
+    display: flex
+    flex-wrap: wrap
+    margin-top: -2px
+    &__image
+      overflow: hidden
+      width: 160px
+      height: 238px
+      margin-left: 11px
+      mix-blend-mode: normal
+      border: 1px solid rgba(179, 186, 197, 0.2)
+      border-radius: 8px
+    &__item
+      display: flex
+      justify-content: space-between
+      align-items: center
+      max-width: 358px
+      min-height: 260px
+      margin-right: 35px
+      margin-top: 32px
+      border: 1px solid #ECEEF2
+      box-sizing: border-box
+      border-radius: 8px
+      &--two
+        margin-right: 0
+        margin-left: -2px
+      &--six
+        margin-right: 0
+        margin-left: -2px
+      &--four
+        margin-right: 0
+        margin-left: -2px
+    &__info
+      display: flex
+      flex-direction: column
+      width: 47%
+      letter-spacing: 0.2px
+    &__name
+      font-style: normal
+      font-weight: 500
+      font-size: 22px
+      line-height: 32px
+      font-family: "Roboto"
+      color: #183B56
+    &__genre
+      margin-top: 16px
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 22px
+      font-family: "Open Sans"
+      color: #183B56
+    &__price
+      margin-top: 24px
+      font-style: normal
+      font-weight: bold
+      font-size: 20px
+      line-height: 24px
+      letter-spacing: 0.2px
+      color: #1565D8
+      font-family: "Roboto Condensed"
+      letter-spacing: 0.2px
+    &__block
+      display: flex
+      align-items: center
+      margin-top: 24px
+    &__button
+      max-width: 101px
+      padding: 7px 20px
+      font-family: "Open Sans"
+      font-style: normal
+      font-weight: bold
+      font-size: 16px
+      line-height: 22px
+      border: none
+      background: #183B56
+      border-radius: 2000px
+      color: #fff
+      cursor: pointer
+    &__button:hover
+      background-color: #fff
+      color: #183B56
+      border: 2px solid #183B56
+      max-width: 101px
+      padding: 5px 18px
+    &__icon
+      width: 18px
+      height: 21px
+      margin-left: 24px
+      margin-top: 7px
+      cursor: pointer
+    &__wrapper
+      width: 18px
+      height: 21px
+      margin-left: 17px
+      margin-top: 7px
+      background-image: url(../img/grey-heart.png)
+      cursor: pointer
+  &__button
+    width: 100%
+    margin-top: 27px
+    padding-top: 26px
+    padding-bottom: 26px
+    background: rgba(21, 101, 216, 0.1)
+    mix-blend-mode: normal
+    border-radius: 8px
+    border: none
+    font-family: "Roboto Condensed"
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    text-transform: uppercase
+    color: #1565D8
+    cursor: pointer
+  &__button:hover
+    color: #183B56
+.best
+  &__text
+    margin-top: 100px
+    display: block
+    font-family: "Roboto Condensed"
+    font-style: normal
+    font-weight: bold
+    font-size: 32px
+    line-height: 40px
+    color: #183B56
+    letter-spacing: 0.2px
+  &-wrapper
+    display: flex
+    flex-direction: column
+    width: 360px
+    height: 942px
+    margin-top: 31px
+    background: rgba(179, 186, 197, 0.1)
+    mix-blend-mode: normal
+    border-radius: 8px
+    letter-spacing: 0.2px
+    &__image
+      overflow: hidden
+      width: 120px
+      height: 182px
+      margin-left: 25px
+      mix-blend-mode: normal
+      border: 1px solid rgba(179, 186, 197, 0.2)
+      border-radius: 8px
+    &__info
+      display: flex
+      flex-direction: column
+      width: 47%
+      margin-right: 22px
+    &__name
+      font-style: normal
+      font-weight: 500
+      font-size: 22px
+      line-height: 32px
+      font-family: "Roboto"
+      color: #183B56
+    &__price
+      margin-top: 15px
+      font-style: normal
+      font-weight: bold
+      font-size: 20px
+      line-height: 24px
+      letter-spacing: 0.2px
+      color: #1565D8
+      font-family: "Roboto Condensed"
+    &__button
+      max-width: 101px
+      padding: 7px 20px
+      margin-top: 22px
+      font-family: "Open Sans"
+      font-style: normal
+      font-weight: bold
+      font-size: 16px
+      line-height: 22px
+      border: none
+      background: #183B56
+      border-radius: 2000px
+      color: #fff
+      cursor: pointer
+    &__button:hover
+      background-color: #fff
+      color: #183B56
+      border: 2px solid #183B56
+      max-width: 101px
+      padding: 5px 18px
+  &-item
+    display: flex
+    justify-content: space-between
+    align-items: center
+    max-width: 360px
+    min-height: 182px
+    margin-top: 33px
+    &__first
+      margin-top: 21px
+    &__two
+      margin-top: 32px
+    &__four
+      margin-top: 32px
+  &__button
+    margin-top: 4px
+    margin: auto
+    padding-top: 25px
+    padding-bottom: 25px
+    width: 90%
+    font-family: "Roboto Condensed"
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    border: none
+    border-top: 1px solid #ECEEF2
+    background: rgba(179,186,197,0)
+    text-transform: uppercase
+    color: #1565D8
+    cursor: pointer
+  &__button:hover
+    color: #183B56
