@@ -21,6 +21,7 @@ const genreSlider = new Swiper('.genre-slider', {
   keyboard: {
     enabled: true,
     onlyInViewport: false,
+    
   },
 });
 
