@@ -1,0 +1,62 @@
+.unreleased
+  &-wrapper
+    margin-top: 100px
+    padding-top: 62px
+    padding-bottom: 80px
+    background-color: #183B56
+  &__text
+    font-family: Roboto Condensed
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 48px
+    color: #ffffff
+    letter-spacing: 0.2px
+  &-container
+    position: relative
+  &__slide
+    width: 204px
+    height: 298px
+    background: #FFFFFF
+    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08)
+    border-radius: 8px
+    overflow: hidden
+  &-slider
+    margin-top: 60px
+    &__button
+      position: absolute
+      overflow: visible
+      top: -4px
+      width: 56px
+      height: 56px
+      z-index: 10
+      border: none
+      background-repeat: no-repeat
+      background-position: center
+      background-size: 10px
+      cursor: pointer
+      background-color: #183B56
+      box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08)
+      border-radius: 2000px
+      border: 2px solid #FFFFFF
+      &--prev
+        background-image: url(../img/grey-next.svg)
+        right: 77px
+        overflow: visible
+        border: 2px solid #5A7184
+      &--prev:hover
+        background-image: url(../img/white-next.svg)
+        overflow: visible
+        transform: rotate(180deg)
+        border: 2px solid #FFFFFF
+      &--next
+        background-image: url(../img/grey-next.svg)
+        right: 0
+        overflow: visible
+        transform: rotate(180deg)
+        border: 2px solid #5A7184
+      &--next:hover
+        background-image: url(../img/white.svg)
+        overflow: visible
+        border: 2px solid #FFFFFF
+        transform: none

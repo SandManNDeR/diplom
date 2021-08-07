@@ -62,14 +62,13 @@ const genreSlider = new Swiper('.genre-slider', {
   slidesPerView: 'auto',
   spaceBetween: 30,
 
-  breakpoints: {
+    breakpoints: {
   // when window width is >= 320px
     320: {
       slidesPerView: 1,
       slidesPerColumn: 1,
       autoHeight: false,
     },
-
     577: {
       slidesPerView: 1,
       slidesPerColumn: 1,
@@ -90,7 +89,6 @@ const genreSlider = new Swiper('.genre-slider', {
       spaceBetween: 30,
     }
   },
-
   // Navigation arrows
   navigation: {
     nextEl: '.unreleased-slider__button--next',

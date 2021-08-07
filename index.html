@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore</title>
+  <link rel="icon" type="image/x-icon" href="favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/chief-slider.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container navbar__container">
+      <a href="index.html" class="navbar-logo">
+        <img class="navbar-logo__image" src="img/logo-top.svg" alt="Logo: Ehya">
+      </a>
+      <div class="navbar-menu navbar-menu--hidden">
+        <a href="#" class="navbar-menu__item navbar-menu__item--hidden">Рекомендации</a>
+        <a href="#" class="navbar-menu__item navbar-menu__item--books">Книги</a>
+        <a href="#" class="navbar-menu__item navbar-menu__item--blog">Блог</a>
+        <button class="button navbar__button">Получить</button>
+      </div>
+      <!-- /.navbar-menu -->
+      <button class="button-menu button-menu--visible">
+        <span class="button-menu__line"></span>
+        <span class="button-menu__line"></span>
+        <span class="button-menu__line"></span>
+      </button>
+    </div>
+    <!-- /.navbar__container -->
+  </header>
+
+  <section class="book">
+    <div class="container">
+      <div class="book-wrapper">
+        <div class="book-info">
+          <h1 class="book-info__name"><span class="book-info__name-color">Design Theory:</span><br> The Psychology
+            of<br>Graphic Design Pricing</h1>
+          <span class="book-info__author">Книга Мишеля Янга</span>
+          <p class="book-info__about">
+            Спустя 15 лет я управляю собственной студией, выполнив тысячи проектов для крупных клиентов.
+            Теперь я делюсь своими золотыми стратегиями ценообразования на творческую работу.
+          </p>
+          <div class="book-info__button">
+            <button class="button book-info__button-buy">Купить сейчас</button>
+            <button class="button book-info__button-demo">Читать Демо</button>
+          </div>
+          <!-- /.book-info__buttons -->
+        </div>
+        <!-- /.book-info -->
+        <div class="book-image">
+          <img src="img/book-main.png" alt="Image: The Psychology of Graphic Design Pricing" class="book-image__main">
+        </div>
+      </div>
+      <!-- /.book-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section class="books">
+    <div class="container">
+      <div class="books-wrapper">
+        <div class="recommended">
+          <span class="recommended__text">Рекомандации</span>
+          <div class="recommended-wrapper">
+            <div class="recommended-wrapper__item">
+              <div class="recommended-wrapper__image">
+                <img class="image" src="img/book-1.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="recommended-wrapper__info">
+                <span class="recommended-wrapper__name">The World of Abstract Art</span>
+                <span class="recommended-wrapper__genre">Art & Design</span>
+                <span class="recommended-wrapper__price">$25.00</span>
+                <div class="recommended-wrapper__block">
+                  <button class="recommended-wrapper__button">Купить</button>
+                  <img class="recommended-wrapper__icon" src="img/like.svg" alt="Icon: Like">
+                </div>
+              </div>
+            </div>
+
+            <div class="recommended-wrapper__item recommended-wrapper__item--two">
+              <div class="recommended-wrapper__image">
+                <img class="image" src="img/book-22.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="recommended-wrapper__info">
+                <span class="recommended-wrapper__name">Educated : a Memoir</span>
+                <span class="recommended-wrapper__genre">Education</span>
+                <span class="recommended-wrapper__price">$28.00</span>
+                <div class="recommended-wrapper__block">
+                  <button class="recommended-wrapper__button">Купить</button>
+                  <img class="recommended-wrapper__icon" src="img/like.svg" alt="Icon: Like">
+                </div>
+              </div>
+            </div>
+
+            <div class="recommended-wrapper__item recommended-wrapper__item--three">
+              <div class="recommended-wrapper__image">
+                <img class="image" src="img/book-3.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="recommended-wrapper__info">
+                <span class="recommended-wrapper__name">The Blue Flowers Ray…</span>
+                <span class="recommended-wrapper__genre">Novel</span>
+                <span class="recommended-wrapper__price">$19.50</span>
+                <div class="recommended-wrapper__block">
+                  <button class="recommended-wrapper__button">Купить</button>
+                  <img class="recommended-wrapper__icon" src="img/like.svg" alt="Icon: Like">
+                </div>
+              </div>
+            </div>
+
+            <div class="recommended-wrapper__item recommended-wrapper__item--four">
+              <div class="recommended-wrapper__image">
+                <img class="image" src="img/book-4.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="recommended-wrapper__info">
+                <span class="recommended-wrapper__name">There There : a Novel by TO</span>
+                <span class="recommended-wrapper__genre">Novel</span>
+                <span class="recommended-wrapper__price">$20.00</span>
+                <div class="recommended-wrapper__block">
+                  <button class="recommended-wrapper__button">Купить</button>
+                  <img class="recommended-wrapper__icon" src="img/like.svg" alt="Icon: Like">
+                </div>
+              </div>
+            </div>
+
+            <div class="recommended-wrapper__item recommended-wrapper__item--five">
+              <div class="recommended-wrapper__image">
+                <img class="image" src="img/book-5.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="recommended-wrapper__info">
+                <span class="recommended-wrapper__name">WMNDFL : The Inspiration</span>
+                <span class="recommended-wrapper__genre">Business</span>
+                <span class="recommended-wrapper__price">$23.00</span>
+                <div class="recommended-wrapper__block">
+                  <button class="recommended-wrapper__button">Купить</button>
+                  <img class="recommended-wrapper__icon" src="img/like.svg" alt="Icon: Like">
+                </div>
+              </div>
+            </div>
+
+            <div class="recommended-wrapper__item recommended-wrapper__item--six">
+              <div class="recommended-wrapper__image">
+                <img class="image" src="img/book-6.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="recommended-wrapper__info">
+                <span class="recommended-wrapper__name">Making Things Happen</span>
+                <span class="recommended-wrapper__genre">Motivation</span>
+                <span class="recommended-wrapper__price">$23.00</span>
+                <div class="recommended-wrapper__block">
+                  <button class="recommended-wrapper__button">Купить</button>
+                  <img class="recommended-wrapper__icon" src="img/like.svg" alt="Icon: Like">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.recommended-wrapper -->
+          <button class="recommended__button">Больше рекомендаций</button>
+        </div>
+        <!-- /.recommended -->
+
+        <div class="best">
+          <span class="best__text">Топ Месяца</span>
+          <div class="best-wrapper">
+            <div class="best-item best-item--first">
+              <div class="best-wrapper__image">
+                <img src="img/book-2.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="best-wrapper__info">
+                <span class="best-wrapper__name">Sprint : Solve, Test in 5 Days</span>
+                <span class="best-wrapper__price">$23.00</span>
+                <button class="best-wrapper__button">Купить</button>
+              </div>
+            </div>
+
+            <div class="best-item best-item--two">
+              <div class="best-wrapper__image">
+                <img src="img/book-11.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="best-wrapper__info">
+                <span class="best-wrapper__name">Hacking Growth Break Problem</span>
+                <span class="best-wrapper__price">$23.00</span>
+                <button class="best-wrapper__button">Купить</button>
+              </div>
+            </div>
+
+            <div class="best-item best-item--three">
+              <div class="best-wrapper__image">
+                <img src="img/book-12.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="best-wrapper__info">
+                <span class="best-wrapper__name">Very Nice a Novel by Mercy</span>
+                <span class="best-wrapper__price">$23.00</span>
+                <button class="best-wrapper__button">Купить</button>
+              </div>
+            </div>
+
+            <div class="best-item best-item--four">
+              <div class="best-wrapper__image">
+                <img src="img/book-13.png" alt="Image: The World of Abstract Art">
+              </div>
+              <div class="best-wrapper__info">
+                <span class="best-wrapper__name">Hooked : How to Build Products</span>
+                <span class="best-wrapper__price">$23.00</span>
+                <button class="best-wrapper__button">Купить</button>
+              </div>
+            </div>
+            <hr>
+            <button class="best__button">Лучшие Книги</button>
+          </div>
+          <!-- /.best-month-wrapper -->
+
+        </div>
+        <!-- /.best-month -->
+      </div>
+      <!-- /.books-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section class="genre">
+    <div class="container">
+      <div class="swipe">
+        <div class="swiper-container">
+          <div class="swiper-container genre-slider">
+            <div class="swiper-wrapper genre-wrapper">
+
+              <div class="swiper-slide genre-slide">
+                <div class="genre-slider__item">
+                  <img class="genre-slider__image" src="img/business.svg" alt="Icon: business genre">
+                  <span class="genre__name">Бизнес & Финансы</span>
+                  <span class="genre__info">Книги про мир бизнеса</span>
+                </div>
+              </div>
+              <!-- /.swiper-slide -->
+
+              <div class="swiper-slide genre-slide">
+                <div class="genre-slider__item">
+                  <img class="genre-slider__image" src="img/motivation.svg" alt="Icon: business genre">
+                  <span class="genre__name">Самомотивация</span>
+                  <span class="genre__info">Книги о мотивации</span>
+                </div>
+              </div>
+              <!-- /.swiper-slide -->
+
+              <div class="swiper-slide genre-slide">
+                <div class="genre-slider__item">
+                  <img class="genre-slider__image" src="img/novels.svg" alt="Icon: business genre">
+                  <span class="genre__name">Романы Теленовеллы</span>
+                  <span class="genre__info">Книги с крутыми историями</span>
+                </div>
+              </div>
+              <!-- /.swiper-slide -->
+
+              <div class="swiper-slide genre-slide">
+                <div class="genre-slider__item">
+                  <img class="genre-slider__image" src="img/future.svg" alt="Icon: business genre">
+                  <span class="genre__name">Навыки будущего</span>
+                  <span class="genre__info">Книги для самоподготовки</span>
+                </div>
+              </div>
+              <!-- /.swiper-slide -->
+
+            </div>
+            <!-- /.swiper-wrapper -->
+          </div>
+          <!-- /.genre-slider -->
+        </div>
+        <!-- /.swiper-container -->
+        <button class="genre-slider__button genre-slider__button--prev"></button>
+        <button class="genre-slider__button genre-slider__button--next"></button>
+      </div>
+      <!-- /.swipe -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section class="unreleased">
+    <div class="unreleased-wrapper">
+      <div class="container">
+        <div class="unreleased-container">
+          <span class="unreleased__text">Неизданные книги</span>
+            <div class="swiper-container unreleased-slider">
+              <div class="swiper-wrapper">
+            
+                <div class="swiper-slide unreleased__slide">
+                  <a href="#">
+                    <img src="img/book-101.png" alt="">
+                  </a>
+                </div>
+            
+                <div class="swiper-slide unreleased__slide">
+                  <a href="#">
+                    <img src="img/book-102.png" alt="">
+                  </a>
+                </div>
+            
+                <div class="swiper-slide unreleased__slide">
+                  <a href="#">
+                    <img src="img/book-103.png" alt="">
+                  </a>
+                </div>
+            
+                <div class="swiper-slide unreleased__slide">
+                  <a href="#">
+                    <img src="img/book-104.png" alt="">
+                  </a>
+                </div>
+            
+                <div class="swiper-slide unreleased__slide">
+                  <a href="#">
+                    <img src="img/book-105.png" alt="">
+                  </a>
+                </div>
+            
+              </div>
+              <!-- /.swiper-wrapper -->
+            </div>
+            <!-- /.swiper-container -->
+          <button class="unreleased-slider__button unreleased-slider__button--prev"></button>
+          <button class="unreleased-slider__button unreleased-slider__button--next"></button>
+        </div>
+        <!-- /.unreleased-container -->
+      </div>
+      <!-- /.container -->
+    </div>
+  </section>
+
+  <script defer src="js/chief-slider.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
