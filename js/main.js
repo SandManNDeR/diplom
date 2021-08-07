@@ -9,6 +9,37 @@ const genreSlider = new Swiper('.genre-slider', {
   loop: true,
   slidesPerView: 'auto',
   spaceBetween: 26,
+
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      slidesPerColumn: 2,
+      spaceBetween: 10,
+      autoHeight: false,
+    },
+
+    577: {
+      slidesPerView: 1,
+      slidesPerColumn: 1,
+      spaceBetween: 10,
+      autoHeight: false,
+    },
+    769: {
+      slidesPerView: 3,
+      slidesPerColumn: 1,
+      spaceBetween: 10,
+      autoHeight: false,
+    },
+    993: {
+      slidesPerView: 3,
+      spaceBetween: 26,
+    },
+    1201: {
+      slidesPerView: 'auto',
+      spaceBetween: 26,
+    }
+  },
   // Navigation arrows
   navigation: {
     nextEl: '.genre-slider__button--next',
@@ -30,6 +61,34 @@ const genreSlider = new Swiper('.genre-slider', {
   loop: true,
   slidesPerView: 'auto',
   spaceBetween: 30,
+
+  breakpoints: {
+  // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      slidesPerColumn: 1,
+      autoHeight: false,
+    },
+    577: {
+      slidesPerView: 1,
+      slidesPerColumn: 1,
+      autoHeight: false,
+    },
+    769: {
+      slidesPerView: 3,
+      slidesPerColumn: 1,
+      spaceBetween: 60,
+      autoHeight: false,
+    },
+    993: {
+      spaceBetween: 40,
+      slidesPerView: 4,
+    },
+    1201: {
+      slidesPerView: 5,
+      spaceBetween: 30,
+    }
+  },
 
   // Navigation arrows
   navigation: {

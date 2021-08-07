@@ -1,3 +1,14 @@
+@media (max-width: 1215px)
+  .genre
+    &-slider
+      &__button
+        top: 108%
+        width: 56px
+        height: 56px
+        &--prev
+          left: 30%
+        &--next
+          right: 30%
 @media (max-width: 1200px)
   .container
     max-width: 900px
@@ -82,6 +93,35 @@
   .recommended
     &__button
       width: 343px
+  .genre
+    &-slider
+      &__button
+        top: 108%
+        width: 56px
+        height: 56px
+        &--prev
+          left: 35%
+        &--next
+          right: 35%
+  .unreleased
+    &-container
+      text-align: center
+    &-wrapper
+      padding-bottom: 130px
+    &__slide
+      height: 298px
+    &-slider
+      margin-top: 42px
+      &__button
+        top: 418px
+        &--prev
+          width: 56px
+          height: 56px
+          right: 55%
+        &--next
+          right: 38%
+          width: 56px
+          height: 56px
 @media (max-width: 768px)
   .container
     max-width: 700px
@@ -97,13 +137,14 @@
     &-menu
       display: flex
       width: 22px
-      height: 20px
+      height: 18px
       padding: 0
       align-items: center
       justify-content: space-between
       flex-direction: column
       border: none
       cursor: pointer
+      background-color: #fff
       &__line
         width: 100%
         height: 2px
@@ -229,15 +270,63 @@
     &__button
       margin-top: 0px
       padding: 21px 20px
+  .genre
+    &-slider
+      height: 400px
+      width: 290px
+      &__button
+        top: 70%
+        &--prev
+          left: 38%
+        &--next
+          left: 50%
+  .unreleased
+    &-container
+      margin: auto
+      text-align: center
+      width: 293px
+    &-wrapper
+      margin-top: 0
+      padding-top: 47px
+      padding-bottom: 138px
+    &-slider
+      margin-top: 42px
+      width: 206px
+      &__button
+        top: 418px
+        &--prev
+          width: 48px
+          height: 48px
+          right: 155px
+        &--next
+          right: 89px
+          width: 48px
+          height: 48px
+    &__text
+      margin: auto
+      text-align: center
+      font-style: normal
+      font-weight: bold
+      font-size: 28px
+      line-height: 36px
 @media (max-width: 576px)
   .container
-    width: 272px
-    width: 90%
-    padding-top: 18px
-    padding-bottom: 18px
+    width: 96%
+  .navbar
+    &__container
+      width: 90%
+      padding-top: 16px
+      padding-bottom: 16px
+    &-logo
+      margin-left: -4px
+  .button
+    &-menu
+      margin-left: 0px
   .book
-    padding-top: 15px
+    padding-top: 0px
+    margin-top: 19px
     &-info
+      margin-top: 16px
       &__name
         font-size: 32px
         line-height: 40px
@@ -270,3 +359,101 @@
       &__main
         width: 143px
         height: 214px
+  .recommended
+    &__text
+      margin-top: 56px
+    &-wrapper
+      &__button
+        margin-top: 18px
+      &__icon
+        margin-top: 0
+      &__price
+        margin-left: -10px
+        font-size: 16px
+        line-height: 20px
+      &__image
+        height: 141px
+      &__item
+        margin-top: 27px
+    &__button
+      margin-top: 24px
+  .best
+    &-wrapper
+      margin-top: 34px
+      &__image
+        margin-left: 15px
+        width: 97px
+        height: 144px
+    &__text
+      margin-top: 56px
+      margin-left: 0px
+      font-style: normal
+      font-weight: bold
+      font-size: 28px
+      line-height: 36px
+  .genre
+    &-slider
+      height: 374px
+      &__image
+        margin-top: 20px
+        width: 36px
+        height: 36px
+      &__button
+        top: 108%
+        width: 48px
+        height: 48px
+        &--prev
+          left: 34%
+        &--next
+          right: 32%
+    &__name
+      margin-top: 16px
+      font-size: 16px
+      line-height: 20px
+      text-align: center
+    &__info
+      width: 82%
+      margin-top: 10px
+      text-align: center
+      font-size: 12px
+      line-height: 20px
+    &-slide
+      height: calc((100% - 10px) / 2)
+      width: 140px
+      margin-top: 0 !important
+  .swipe
+    padding-top: 55px
+    margin-top: 58px
+    margin-left: auto
+    margin-right: auto
+    text-align: center
+    width: 293px
+  .unreleased
+    &-container
+      margin: auto
+      text-align: center
+      width: 293px
+    &-wrapper
+      margin-top: 140px
+      padding-top: 47px
+      padding-bottom: 138px
+    &-slider
+      margin-top: 42px
+      width: 206px
+      &__button
+        top: 418px
+        &--prev
+          width: 48px
+          height: 48px
+          right: 155px
+        &--next
+          right: 89px
+          width: 48px
+          height: 48px
+    &__text
+      margin: auto
+      text-align: center
+      font-style: normal
+      font-weight: bold
+      font-size: 28px
+      line-height: 36px
